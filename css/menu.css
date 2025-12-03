@@ -1,0 +1,40 @@
+.hero__menu a{
+    display: block;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 4px;
+    margin: 5px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+#chk-burger{
+    display: none;
+}
+
+.hero__navigation{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    
+    
+}
+
+.hero__menu{
+    background-color: #00000056;
+    padding: 10px;
+    transform: translateX(150%);
+    transition: transform 1s linear;
+
+
+}
+
+
+#chk-burger:checked ~ .hero__menu{
+    transform: translateX(0);
+
+}
