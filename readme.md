@@ -4,4 +4,4 @@ Site parlant du fulgurant Alex Ovechkin, devenu en 2025 le meillleur buteur de l
 
 - Auteur : Elie Kozaily 
 - Cours-1W1-Mise en page web
-- Github-page :
+- Github-page : https://eliekozaily.github.io/TP2-1w1/
