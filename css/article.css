@@ -1,0 +1,104 @@
+/**************************************************************** ARTICLE*/
+
+/**conteneur principal*/
+.article{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+/*élément du conteneur, la première colonne*/
+.article__div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 700px;
+}
+
+/*élément du conteneur, la deuxième colonne*/
+.article__figure{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;   
+}
+
+
+.article__figure img{
+    width : 100%;
+    display:block;
+}
+
+
+.article:nth-of-type(odd) .article__figure{
+    order : -1;
+}
+
+.article figcaption{
+    text-align: center;
+    font-family: "Edu NSW ACT Cursive", cursive ;
+
+}
+
+/*
+
+.article__h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.principal__article1{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+
+ 
+}
+
+
+.article figure:nth-of-type(even).article figure{
+    
+
+}
+
+
+.principal__article1 p{
+    line-height: 1.5rem;
+    font-size: 14px;
+    max-width: 400px;
+    
+}
+
+.principal__article1 img{
+    width: 256px;
+    height: 170.75px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.principal__article1 figcaption{
+    font-size: 12px;
+    text-align: center;
+    
+    padding: 10px;
+}
+
+
+.principal__article1 img:hover{
+    transform: scale(1.1);
+
+}
+
+*/
+
+
