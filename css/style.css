@@ -132,6 +132,11 @@ h2{
     -webkit-text-stroke-color: rgb(255, 0, 0);
 }
 
+hr{
+    margin: 30px 0;
+    background-color : #0c0c0c42;
+}
+
 
 /*************************************** hero*/
 
