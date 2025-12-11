@@ -5,6 +5,8 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+
 
 
 }
@@ -37,68 +39,26 @@
 .article figcaption{
     text-align: center;
     font-family: "Edu NSW ACT Cursive", cursive ;
+    font-size: 12px;
+}
+
+
+
+.article figure:hover{
+    transform: scale(1.1);
 
 }
 
-/*
 
 .article__h2{
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 50px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    font-family: "Carrois Gothic", sans-serif;
 }
 
-.principal__article1{
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 400px;
-    flex-wrap: wrap;
-    gap: 20px;
-
-
-
- 
+.article h3{
+    color: red;
 }
-
-
-.article figure:nth-of-type(even).article figure{
-    
-
-}
-
-
-.principal__article1 p{
-    line-height: 1.5rem;
-    font-size: 14px;
-    max-width: 400px;
-    
-}
-
-.principal__article1 img{
-    width: 256px;
-    height: 170.75px;
-    padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.principal__article1 figcaption{
-    font-size: 12px;
-    text-align: center;
-    
-    padding: 10px;
-}
-
-
-.principal__article1 img:hover{
-    transform: scale(1.1);
-
-}
-
-*/
-
-

@@ -20,12 +20,15 @@ h1,h2,h3{
     margin: 0;
 }
 
-
+figure{
+    margin: 0;
+    padding: 0;
+}
 
 .centre{
     max-width: 1100px;
     margin: 0 auto;
-    background-color: #ffffff3a;
+    background-color: #ffffff1f;
     padding: 25px;
 }
 
@@ -37,7 +40,7 @@ h1,h2,h3{
 
 body > div:nth-of-type(1){
     background: 
-    linear-gradient(to bottom, transparent 80%, black 100%),
+    linear-gradient(to bottom, transparent 80%, rgb(0, 0, 0) 100%),
     url("../images/Alex-Ovechkin-goal-tacker-FTR.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
@@ -49,7 +52,7 @@ body > div:nth-of-type(2){
 
     min-height: 100vh;
     
-    background:  linear-gradient(to top, transparent 80%, black 100%),
+    background:  linear-gradient(to top, transparent 80%, rgba(7, 7, 20, 0.623) 100%),
                     url("../images/pngtree-3d-rendering-of-a-hockey-rink-image_3704231.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
@@ -65,11 +68,16 @@ body > div:nth-of-type(2){
 
 
 body > div:nth-of-type(3){
-    background-color: orange;
+    min-height: 100vh;
+    
+    background:  linear-gradient(to top, transparent 80%, black 100%),
+                    url("../images/fond\ 3.webp");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-
+    
 }
-
 
 body > div:nth-of-type(4){
     background-color: blueviolet;
@@ -78,7 +86,7 @@ body > div:nth-of-type(4){
 
 
 body > div:nth-of-type(5){
-    background-color: red;
+    background-color: rgb(21, 255, 0);
 
 }
 
@@ -101,6 +109,12 @@ body > div:nth-of-type(8){
 
 
 
+}
+
+h2{
+    color: #ffffff;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
 }
 
 
@@ -233,12 +247,15 @@ body > div:nth-of-type(8){
 .tableau {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 table{
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #ffffff;
     font-family: "Carrois Gothic", sans-serif;
+    
    
 
 }
@@ -248,6 +265,7 @@ caption{
     padding: 7px;
     border: 1px solid #ffffff;
     color: white;
+    font-size: clamp(1rem, 3vw, 3rem);
 
 }
 tr{
@@ -265,6 +283,7 @@ td, th{
     padding: 5px;
     text-align: left;
     color: white;
+    font-size: clamp(0.5rem, 3vw, 2rem);
 
  
  

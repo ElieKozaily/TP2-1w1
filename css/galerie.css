@@ -1,0 +1,102 @@
+
+/**************************************************************** PHOTO*/
+
+.galerie{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+
+.galerie__figure{
+    flex-grow: 1 ;
+    flex-shrink: 0 ;
+    flex-basis: 290px ;
+    transform: rotate(10deg);
+    filter: blur(3px);
+    transition: transform 2s, filter 2s;
+}
+
+.galerie__img{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.galerie__figcaption{
+    text-align: center;
+    font-family: "Edu NSW ACT Cursive", cursive ;
+    font-size: 10px;
+}
+
+
+.galerie__figure:nth-of-type(odd){
+    transform: rotate(-10deg);
+}
+
+.galerie__figure:hover{
+   
+    transform: scale(1.2);
+    filter: none;
+    
+}
+
+.galerie h2{
+    font-size: 50px;
+}
+
+
+
+/**************************************************************** VIDÉO*/
+
+.vidéo iframe{
+    margin: 20px;
+}
+
+.vidéo{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+
+
+}
+
+
+
+
+.vidéo:nth-of-type(odd){
+    order : -1;
+}
+
+
+.quatre h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    font-family: "Carrois Gothic", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+}
+
+
+.quatre h3{
+    font-size: 33px;
+    text-align: center;
+    color: red;
+}
+
+.vidéo iframe{
+     transition: transform 2s;
+}
+
+
+.vidéo iframe:hover{
+   
+    transform: scale(2);
+
+}
